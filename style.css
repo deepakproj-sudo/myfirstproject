@@ -1,0 +1,78 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: blue;
+    color: black;
+}
+
+/* Header styling */
+header {
+    background: #1dbd9a;
+    color: #88824ac4;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.post h2 {
+    margin-bottom: 10px;
+}
+
+.post .date {
+    font-size: 0.9em;
+    color: #ac3c3cb0;
+    margin-bottom: 10px;
+}
+
+.post .content {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #171264;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
